@@ -1,0 +1,95 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.mySide ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  height: calc(100% - 60px);
+  overflow: auto;
+  padding-top: 60px;
+}
+
+.mySide li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.mySide li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.mySide li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+#ML,
+#SM {
+  float: left;
+  height: 100%;
+}
+
+#Content {
+  float: left;
+  padding-top: 45px;
+}
+
+.cell {
+  border: 1px solid #333;
+  width: 34px;
+  height: 34px;
+  line-height: 32px;
+
+  float: left;
+  background-color: silver;
+}
+.cell:hover {
+  background-color: red;
+}
+
+.opened0 {
+  background-color: snow;
+}
+.opened1 {
+  background-color: rgb(226, 253, 207);
+}
+.opened2 {
+  background-color: rgb(207, 248, 159);
+}
+.opened3 {
+  background-color: rgb(240, 247, 179);
+}
+.opened4 {
+  background-color: rgb(253, 221, 160);
+}
+.opened5 {
+  background-color: rgb(248, 165, 70);
+}
+.opened6 {
+  background-color: rgb(253, 163, 80);
+}
+.opened7 {
+  background-color: rgb(243, 132, 88);
+}
+.opened8 {
+  background-color: rgb(253, 37, 37);
+}
+.gameContainer {
+  margin: 0 auto;
+}
